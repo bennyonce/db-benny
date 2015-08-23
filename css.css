@@ -1,0 +1,53 @@
+/* 清零 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+img,input{
+	border: none;
+	border: 1px solid none;
+}
+
+#hd-header{
+	width: 950px;
+	height: 90px;
+	margin: 0 auto;
+	border: 1px solid #f00;
+	position: relative;
+}
+
+#hd-header .header-logo{
+	display: block;
+	width: 154px;
+	height: 30px;
+	background: url(./images/logo_db.png) no-repeat;
+	position: absolute;
+	left: 0px;
+	top:29px;
+}
+
+#hd-header .header-search{
+	width: 310px;
+	height: 30px;
+	border: 1px solid #c3c3c3;
+	position: absolute;
+	left: 183px;
+	top: 31px;
+	color: #e4e4e4;
+	padding-left: 7px;
+}
+/* 公共样式 */
+a{
+	color: #3377aa;
+}
+
+a:hover{
+	background:#3377aa;
+	color: #fff;
+}
+/* 公共样式结束 */
