@@ -2,6 +2,9 @@
 *{
 	margin: 0px;
 	padding: 0px;
+}
+
+body{
 	font: Helvetica,Arial,sans-serif;
 	font-size: 12px;
 }
@@ -199,13 +202,16 @@ li{
 	padding-left: 15px;
 }
 
-#hd-reg p.reg-forget{
+#hd-reg a.reg-forget{
 	display: block;
 	position: absolute;
 	left: 755px;
 	top:71px;
 	color: #3377aa;
 	font-size: 12px;
+}
+#hd-reg a.reg-forget:hover{
+	background: #E8EDF1;
 }
 #hd-reg .reg-remeber{
 	width: 13px;
@@ -245,11 +251,70 @@ li{
 	text-align: center;
 }
 
+#hd-reg .signup:hover{
+	background: #E8EDF1;
+}
 
+/*热门区域*/
+#hd-hot{
+	width: 950px;
+	height: 640px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid red;
+}
 
+#hd-hot .hot-ad{
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	background: url(./images/b5227c04ea65cda.jpg) no-repeat;
+}
+#hd-hot .hot-con{
+	width: 688px;
+	height: 510px;
+	border: 1px solid purple;
+	position: absolute;
+	top: 125px;
+	left: 0px;
+}
+#hd-hot .hot-con p.hot-title{
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+#hd-hot .hot-con ul{
+	width: 380px;
+	height: 470px;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	border: 1px solid blue;
+}
+#hd-hot .hot-con ul li{
+	width: 170px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 17px;
+}
+#hd-hot .hot-con ul li a{
+	font-size: 12px;
+	color: #3377aa;
+}
+#hd-hot .hot-con ul li a:hover{
+	color: #fff;
+}
+#hd-hot .hot-con ul li a.hot-pic{
+	width: 170px;
+	height: 170px;
+}
+#hd-hot .hot-con ul li span{
+	font-size: 12px;
+	color: #999999;
+}
 
-
-
+/*热门区域结束*/
 
 
 
@@ -267,4 +332,16 @@ a:hover{
 	background:#3377aa;
 	color: #fff;
 }
+
+.hd-ad{
+	width: 950px;
+	height: 90px;
+}
+
+.con-title{
+	font-size: 15px;
+	color: #007722;
+}
+
 /* 公共样式结束 */
+
