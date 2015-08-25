@@ -3,24 +3,21 @@
 	margin: 0px;
 	padding: 0px;
 }
-
 body{
 	font: Helvetica,Arial,sans-serif;
 	font-size: 12px;
 }
-
 a{
 	text-decoration: none;
 }
-
 img,input{
 	border: none;
 	border: 1px solid none;
 }
-
 li{
 	list-style: none;
 }
+
 /*头部*/
 #hd-header{
 	width: 950px;
