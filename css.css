@@ -167,7 +167,7 @@ li{
 	position: absolute;
 	top: 62px;
 }
-#hd-reg p.reg-p{
+#hd-reg .reg-p{
 	display: block;
 	width: 55px;
 	height: 15px;
@@ -177,7 +177,7 @@ li{
 	padding-left: 15px;
 }
 
-#hd-reg a.reg-forget{
+#hd-reg .reg-forget{
 	display: block;
 	position: absolute;
 	left: 755px;
@@ -185,7 +185,7 @@ li{
 	color: #3377aa;
 	font-size: 12px;
 }
-#hd-reg a.reg-forget:hover{
+#hd-reg .reg-forget:hover{
 	background: #E8EDF1;
 }
 #hd-reg .reg-remeber{
@@ -230,6 +230,8 @@ li{
 
 .hot-ad{
 	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 
 /*热门区域*/
@@ -238,64 +240,66 @@ li{
 	height: 500px;
 	margin: 0 auto;
 	position: relative;
+	border: 1px solid purple;
 }
-#hd-hot .hot-con ul.hot-pic{
+#hd-hot .hot-con .hot-pic{
 	width: 380px;
 	height: 470px;
 	position: absolute;
 	margin-top: 10px;
 }
-#hd-hot .hot-con ul.hot-pic li{
+#hd-hot .hot-con .hot-pic .hot-pic-content{
+	display: block;
 	width: 170px;
-	height: 200px;
+	height: 220px;
 	float: left;
 	margin-right: 10px;
-	margin-bottom: 17px;
+	margin-bottom: 15px;
 }
-#hd-hot .hot-con ul.hot-pic li span{
+#hd-hot .hot-con .hot-pic .hot-pic-content .hot-pic-num{
 	font-size: 12px;
 	color: #999999;
 }
-#hd-hot .hot-con ul.hot-text{
+#hd-hot .hot-con .hot-text{
 	width: 264px;
 	height: 470px;
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 380px;
 }
-#hd-hot .hot-con ul.hot-text li{
-	padding-bottom: 18px;
+#hd-hot .hot-con .hot-text .hot-content{
+	padding-bottom: 10px;
 }
-#hd-hot .hot-con ul.hot-text li p{
+#hd-hot .hot-con .hot-text .hot-content .hot-author{
 	line-height: 20px;
 	color: #999;
 }
-#hd-hot .hot-con ul.hot-text li span{
+#hd-hot .hot-con .hot-text .hot-content .hot-des{
 	line-height: 20px;
 	color: #666;
 }
-#hd-hot .hot-right{
+#hd-hot{
 	margin-top: -10px;
 }
-#hd-hot .hot-right a img.right-top{
+#hd-hot a img.right-top{
 	width: 265px;
 	height: 110px;
 }
-#hd-hot .hot-right ul{
+#hd-hot ul{
 	margin-top: 15px;
 	line-height: 20px;
 }
-#hd-hot .hot-right ul li{
+#hd-hot ul li{
 	margin-bottom: 5px;
 }
-#hd-hot .hot-right ul li p{
+#hd-hot ul li p{
 	color: #999;
 }
-#hd-hot .hot-right ul li b{
+#hd-hot ul li b{
 	color: #999;
 	font-weight: 400;
 }
-#hd-hot .hot-right a img.right-bottom{
+#hd-hot a img.right-bottom{
 	width: 265px;
 	height: 63px;
 	padding-top: 10px;
@@ -314,12 +318,44 @@ li{
 	margin: 0 auto;
 	position: relative;
 }
+#hd-movie-bg #hd-movie .con-mid .movie-title{
+	display: block;
+	font-size: 13px;
+	width: 103px;
+	margin: 0 auto;
+	color: #333;
+	margin-top: 5px;
+}
+#hd-movie-bg #hd-movie .con-mid .movie-title:hover{
+	background: #3377aa;
+	color: #fff;
+}
 #hd-movie-bg #hd-movie .con-mid .movie-rate{
+	display: block;
+	font-weight: 400;
+	color: #f40;
+	margin-top: 5px;
+}
+#hd-movie-bg #hd-movie .con-mid .movie-star{
 	display: inline-block;
-	height: 12px;
+	height: 11px;
 	width: 60px;
-	background: url(./images/midstars.gif) 0px 0px no-repeat;
-	border: 1px solid purple;
+	background: url(./images/midstars.gif) 0px -22px no-repeat;
+}
+#hd-movie-bg #hd-movie .con-mid .movie-button{
+	display: block;
+	width: 68px;
+	height: 23px;
+	background: #1c8bd0;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 23px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+#hd-movie-bg #hd-movie .con-mid .movie-button:hover{
+	background: #047FCB;
 }
 
 /*电影区域结束*/
@@ -339,7 +375,6 @@ a:hover{
 	width: 950px;
 	height: 90px;
 	display: block;
-	margin-top: 40px;
 	background: no-repeat;
 }
 .con-title{
@@ -351,8 +386,9 @@ a:hover{
 	font-size: 12px;
 	color: #666;
 }
-.con-right{
+#con-right{
 	width: 265px;
+	border: 1px solid purple;
 	position: absolute;
 	right: 0px;
 }
@@ -360,12 +396,16 @@ a:hover{
 	width: 115px;
 	padding-top: 40px;
 }
-.con-left a{
+.left-title{
 	font-size: 24px;
 	color: #2277b2;
 	margin-bottom: 10px;
 }
+.left-title:hover{
+	color: #fff;
+}
 .left-top{
+	font-size: 14px;
 	padding-top: 10px;
 	color: #3377aa;
 	line-height: 24px;
@@ -376,10 +416,10 @@ a:hover{
 	top: 38px;
 	left: 115px;
 }
-.con-mid ul{
+.con-mid .movie-text{
 	padding-top: 18px;
 }
-.con-mid ul li{
+.con-mid .movie-text .movie-content{
 	width: 130px;
 	height: 265px;
 	float: left;
