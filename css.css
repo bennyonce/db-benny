@@ -12,7 +12,6 @@ a{
 }
 img,input{
 	border: none;
-	border: 1px solid none;
 }
 li{
 	list-style: none;
@@ -239,7 +238,6 @@ li{
 	height: 500px;
 	margin: 0 auto;
 	position: relative;
-	border: 1px solid red;
 }
 #hd-hot .hot-con ul.hot-pic{
 	width: 380px;
@@ -305,9 +303,24 @@ li{
 /*热门区域结束*/
 
 /*电影区域*/
-
-
-
+#hd-movie-bg{
+	height: 630px;
+	background-color: #f7f7f7;
+}
+#hd-movie-bg #hd-movie{
+	width: 950px;
+	height: 630px;
+	border: 1px solid red;
+	margin: 0 auto;
+	position: relative;
+}
+#hd-movie-bg #hd-movie .con-mid .movie-rate{
+	display: inline-block;
+	height: 12px;
+	width: 60px;
+	background: url(./images/midstars.gif) 0px 0px no-repeat;
+	border: 1px solid purple;
+}
 
 /*电影区域结束*/
 
@@ -343,6 +356,34 @@ a:hover{
 	position: absolute;
 	right: 0px;
 }
-
+.con-left{
+	width: 115px;
+	padding-top: 40px;
+}
+.con-left a{
+	font-size: 24px;
+	color: #2277b2;
+	margin-bottom: 10px;
+}
+.left-top{
+	padding-top: 10px;
+	color: #3377aa;
+	line-height: 24px;
+}
+.con-mid{
+	width: 560px;
+	position: absolute;
+	top: 38px;
+	left: 115px;
+}
+.con-mid ul{
+	padding-top: 18px;
+}
+.con-mid ul li{
+	width: 130px;
+	height: 265px;
+	float: left;
+	text-align: center;
+}
 /* 公共样式结束 */
 
