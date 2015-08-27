@@ -248,7 +248,7 @@ li{
 	position: absolute;
 	margin-top: 10px;
 }
-#hd-hot .hot-con .hot-pic .hot-pic-content{
+#hd-hot .hot-con .hot-pic li{
 	display: block;
 	width: 170px;
 	height: 220px;
@@ -256,25 +256,24 @@ li{
 	margin-right: 10px;
 	margin-bottom: 15px;
 }
-#hd-hot .hot-con .hot-pic .hot-pic-content .hot-pic-num{
+#hd-hot .hot-con .hot-pic span{
 	font-size: 12px;
 	color: #999999;
 }
 #hd-hot .hot-con .hot-text{
 	width: 264px;
-	height: 470px;
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 380px;
 }
-#hd-hot .hot-con .hot-text .hot-content{
+#hd-hot .hot-con .hot-text li{
 	padding-bottom: 10px;
 }
-#hd-hot .hot-con .hot-text .hot-content .hot-author{
+#hd-hot .hot-con .hot-text p{
 	line-height: 20px;
 	color: #999;
 }
-#hd-hot .hot-con .hot-text .hot-content .hot-des{
+#hd-hot .hot-con .hot-text span{
 	line-height: 20px;
 	color: #666;
 }
@@ -299,6 +298,13 @@ li{
 	color: #999;
 	font-weight: 400;
 }
+#hd-hot #hot-right{
+	width: 265px;
+	border: 1px solid purple;
+	position: absolute;
+	right: 0px;
+	top: 15px;
+}
 #hd-hot a img.right-bottom{
 	width: 265px;
 	height: 63px;
@@ -318,7 +324,13 @@ li{
 	margin: 0 auto;
 	position: relative;
 }
-#hd-movie-bg #hd-movie .con-mid .movie-title{
+.con-mid .movie-content li{
+	width: 130px;
+	height: 265px;
+	float: left;
+	text-align: center;
+}
+#hd-movie-bg #hd-movie .con-mid .movie-content .movie-title{
 	display: block;
 	font-size: 13px;
 	width: 103px;
@@ -326,17 +338,17 @@ li{
 	color: #333;
 	margin-top: 5px;
 }
-#hd-movie-bg #hd-movie .con-mid .movie-title:hover{
+#hd-movie-bg #hd-movie .con-mid .movie-content .movie-title:hover{
 	background: #3377aa;
 	color: #fff;
 }
-#hd-movie-bg #hd-movie .con-mid .movie-rate{
+#hd-movie-bg #hd-movie .con-mid b{
 	display: block;
 	font-weight: 400;
 	color: #f40;
 	margin-top: 5px;
 }
-#hd-movie-bg #hd-movie .con-mid .movie-star{
+#hd-movie-bg #hd-movie .con-mid .movie-content span{
 	display: inline-block;
 	height: 11px;
 	width: 60px;
@@ -391,6 +403,7 @@ a:hover{
 	border: 1px solid purple;
 	position: absolute;
 	right: 0px;
+	top: 40px;
 }
 .con-left{
 	width: 115px;
@@ -416,14 +429,9 @@ a:hover{
 	top: 38px;
 	left: 115px;
 }
-.con-mid .movie-text{
+.con-mid .movie-content{
 	padding-top: 18px;
 }
-.con-mid .movie-text .movie-content{
-	width: 130px;
-	height: 265px;
-	float: left;
-	text-align: center;
-}
+
 /* 公共样式结束 */
 
