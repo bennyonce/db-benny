@@ -228,12 +228,6 @@ li{
 }
 /*注册区域结束*/
 
-.hot-ad{
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 10px;
-}
-
 /*热门区域*/
 #hd-hot{
 	width: 950px;
@@ -304,7 +298,6 @@ li{
 }
 #hd-hot #hot-right{
 	width: 265px;
-	border: 1px solid purple;
 	position: absolute;
 	right: 0px;
 	top: 15px;
@@ -318,13 +311,12 @@ li{
 
 /*电影区域*/
 #hd-movie-bg{
-	height: 630px;
+	height: 770px;
 	background-color: #f7f7f7;
 }
 #hd-movie-bg #hd-movie{
 	width: 950px;
-	height: 630px;
-	border: 1px solid red;
+	height: 600px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -373,25 +365,25 @@ li{
 #hd-movie-bg #hd-movie .con-mid .movie-button:hover{
 	background: #047FCB;
 }
-#con-right .movie-cate{
+.con-right .movie-cate{
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-#con-right .movie-cate li{
+.con-right .movie-cate li{
 	display: inline-block;
 	width: 48px;
 	line-height: 24px;
 }
-#con-right .movie-hot{
+.con-right .movie-hot{
 	margin-top: 5px;
 }
-#con-right .movie-hot li{
+.con-right .movie-hot li{
 	display: block;
 	height: 32px;
 	line-height: 32px;
 	border-bottom: 1px solid #d7dce0;
 }
-#con-right .movie-hot span{
+.con-right .movie-hot span{
 	display: inline-block;
 	color: #111;
 	margin-right: 10px;
@@ -399,8 +391,101 @@ li{
 /*电影区域结束*/
 
 /*小组区域*/
-
+#hd-group{
+	margin: 0px auto;
+	width: 950px;
+	height: 650px;
+	position: relative;
+}
+#hd-group .left-title{
+	color: #2f7982;
+}
+#hd-group .left-top a{
+	color: #2f7982;
+}
+#hd-group .left-top a:hover{
+	color: #fff;
+	background: #3377aa;
+}
+#hd-group .con-mid ul{
+	margin-top: 10px;
+}
+#hd-group .con-mid ul li{
+	display: block;
+	width: 224px;
+	height: 90px;
+	position: relative;
+	float: left;
+	margin-right: 54px;
+}
+#hd-group .con-mid .group-icon{
+	display: block;
+	width: 48px;
+	height: 48px;
+}
+#hd-group .con-mid div{
+	position: absolute;
+	top: 0px;
+	left: 56px;
+}
+#hd-group .con-mid .group-title{
+	color: #2f7982;
+	font-size: 13px;
+	line-height: 18px;
+}
+#hd-group .con-mid .group-title:hover{
+	color: #fff;
+	background: #3377aa;
+}
+#hd-group .con-mid h3{
+	margin-top: 8px;
+}
+/*#hd-group .con-right b{
+	display: inline-block;
+	font-weight: 400;
+}*/
+#hd-group .con-right .cate-title{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 7px;
+	font-size: 14px;
+	color: #333;
+}
+#hd-group .con-right .cate-title span{
+	font-size: 8px;
+	margin-left: 3px;
+	line-height: 14px;
+	text-align: center;
+}
+#hd-group .con-right li{
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 18px;
+}
+#hd-group .con-right a{
+	display: block;
+	color: #2f7982;
+}
+#hd-group .con-right a:hover{
+	color: #fff;
+	background: #3377aa;
+}
 /*小组区域结束*/
+
+
+
+/*读书区域*/
+#hd-book-bg{
+	height: 660px;
+	background: #e8edf1;
+}
+#hd-book{
+	width: 950px;
+	margin: 0px auto;
+	border: 1px solid yellow;
+}
+
+/*读书区域结束*/
 
 
 /* 公共样式 */
@@ -416,6 +501,9 @@ a:hover{
 	height: 90px;
 	display: block;
 	background: no-repeat;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 .con-title{
 	font-size: 15px;
@@ -426,9 +514,8 @@ a:hover{
 	font-size: 12px;
 	color: #666;
 }
-#con-right{
+.con-right{
 	width: 265px;
-	border: 1px solid purple;
 	position: absolute;
 	right: 0px;
 	top: 40px;
@@ -460,6 +547,10 @@ a:hover{
 .con-mid .movie-content{
 	padding-top: 18px;
 }
-
+.con-mid h3{
+	font-size: 12px;
+	color: #999;
+	font-weight: 400;
+}
 /* 公共样式结束 */
 
