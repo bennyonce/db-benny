@@ -240,7 +240,11 @@ li{
 	height: 500px;
 	margin: 0 auto;
 	position: relative;
-	border: 1px solid purple;
+}
+#hd-hot .hot-con{
+	width: 380px;
+	position: absolute;
+	top: 10px;
 }
 #hd-hot .hot-con .hot-pic{
 	width: 380px;
@@ -338,9 +342,9 @@ li{
 	color: #333;
 	margin-top: 5px;
 }
-#hd-movie-bg #hd-movie .con-mid .movie-content .movie-title:hover{
-	background: #3377aa;
-	color: #fff;
+#hd-movie-bg #hd-movie .con-mid .movie-content img{
+	width: 100px;
+	height: 142px;
 }
 #hd-movie-bg #hd-movie .con-mid b{
 	display: block;
@@ -369,10 +373,34 @@ li{
 #hd-movie-bg #hd-movie .con-mid .movie-button:hover{
 	background: #047FCB;
 }
-
+#con-right .movie-cate{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#con-right .movie-cate li{
+	display: inline-block;
+	width: 48px;
+	line-height: 24px;
+}
+#con-right .movie-hot{
+	margin-top: 5px;
+}
+#con-right .movie-hot li{
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #d7dce0;
+}
+#con-right .movie-hot span{
+	display: inline-block;
+	color: #111;
+	margin-right: 10px;
+}
 /*电影区域结束*/
 
+/*小组区域*/
 
+/*小组区域结束*/
 
 
 /* 公共样式 */
