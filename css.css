@@ -320,51 +320,6 @@ li{
 	margin: 0 auto;
 	position: relative;
 }
-.con-mid .movie-content li{
-	width: 130px;
-	height: 265px;
-	float: left;
-	text-align: center;
-}
-#hd-movie-bg #hd-movie .con-mid .movie-content .movie-title{
-	display: block;
-	font-size: 13px;
-	width: 103px;
-	margin: 0 auto;
-	color: #333;
-	margin-top: 5px;
-}
-#hd-movie-bg #hd-movie .con-mid .movie-content img{
-	width: 100px;
-	height: 142px;
-}
-#hd-movie-bg #hd-movie .con-mid b{
-	display: block;
-	font-weight: 400;
-	color: #f40;
-	margin-top: 5px;
-}
-#hd-movie-bg #hd-movie .con-mid .movie-content span{
-	display: inline-block;
-	height: 11px;
-	width: 60px;
-	background: url(./images/midstars.gif) 0px -22px no-repeat;
-}
-#hd-movie-bg #hd-movie .con-mid .movie-button{
-	display: block;
-	width: 68px;
-	height: 23px;
-	background: #1c8bd0;
-	color: #fff;
-	border-radius: 4px;
-	line-height: 23px;
-	position: relative;
-	margin: 0 auto;
-	margin-top: 5px;
-}
-#hd-movie-bg #hd-movie .con-mid .movie-button:hover{
-	background: #047FCB;
-}
 .con-right .movie-cate{
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -437,13 +392,9 @@ li{
 	color: #fff;
 	background: #3377aa;
 }
-#hd-group .con-mid h3{
+#hd-group .con-mid b{
 	margin-top: 8px;
 }
-/*#hd-group .con-right b{
-	display: inline-block;
-	font-weight: 400;
-}*/
 #hd-group .con-right .cate-title{
 	display: inline-block;
 	margin-top: 10px;
@@ -483,6 +434,41 @@ li{
 	width: 950px;
 	margin: 0px auto;
 	border: 1px solid yellow;
+	position: relative;
+}
+#hd-book .con-left a{
+	color: #642f14;
+}
+#hd-book .con-left a:hover{
+	color: #fff;
+	background: #3377aa;
+}
+#hd-book .con-mid .mid-content li{
+	width: 130px;
+	height: 256px;
+}
+#hd-book .con-mid .mid-content .mid-title{
+	color: #614e3c;
+	font-weight: 400;
+}
+#hd-book .con-mid .mid-content .mid-title:hover{
+	color: #fff;
+	background: #3377aa;
+}
+#hd-book .con-mid .mid-content .mid-button{
+	display: block;
+	width: 68px;
+	height: 23px;
+	background: #999;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 23px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+#hd-book .con-mid .mid-button:hover{
+	background: #878882;
 }
 
 /*读书区域结束*/
@@ -506,6 +492,7 @@ a:hover{
 	margin-bottom: 10px;
 }
 .con-title{
+	display: block;
 	font-size: 15px;
 	color: #007722;
 	margin-top: 10px;
@@ -520,6 +507,8 @@ a:hover{
 	right: 0px;
 	top: 40px;
 }
+
+/*左侧导航&Icon*/
 .con-left{
 	width: 115px;
 	padding-top: 40px;
@@ -538,19 +527,86 @@ a:hover{
 	color: #3377aa;
 	line-height: 24px;
 }
+
+/*中间内容
+	灰色字：h3
+	黑色字：h4
+	星星图片：span
+*/
 .con-mid{
 	width: 560px;
 	position: absolute;
 	top: 38px;
 	left: 115px;
 }
-.con-mid .movie-content{
+.con-mid ul{
+	display: block;
 	padding-top: 18px;
+	position: relative;
+	overflow: hidden;
+}
+.con-mid .mid-button{
+	display: block;
+	width: 68px;
+	height: 23px;
+	background: #1c8bd0;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 23px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.con-mid .mid-button:hover{
+	background: #047FCB;
+}
+.con-mid .mid-content img{
+	width: 100px;
+	height: 145px;
+}
+.con-mid .mid-title{
+	display: inline-block;
+	color: #333;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.con-mid .mid-title:hover{
+	color: #fff;
+	background: #3377aa;
+}
+.con-mid .mid-content span{
+	display: inline-block;
+	height: 11px;
+	width: 60px;
+	background: url(./images/midstars.gif) 0px -22px no-repeat;
+}
+.con-mid .mid-content li{
+	width: 130px;
+	height: 265px;
+	float: left;
+	text-align: center;
+}
+.con-mid .mid-content img{
+	width: 100px;
+	height: 145px;
+}
+.con-mid .mid-content b{
+	display: block;
+	font-weight: 400;
+	color: #f40;
+	margin-top: 5px;
 }
 .con-mid h3{
 	font-size: 12px;
 	color: #999;
 	font-weight: 400;
+	margin-top: 5px;
+}
+.con-mid h4{
+	font-size: 12px;
+	color: #333;
+	font-weight: 400;
+	margin-top: 5px;
 }
 /* 公共样式结束 */
 

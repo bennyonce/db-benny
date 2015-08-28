@@ -7,3 +7,5 @@
 	padding是内编剧，margin是外边距，IE都不支持inherit。
 
 - Hover背景只有文字颜色？
+
+- Float会导致没有高度，需要Clear.
