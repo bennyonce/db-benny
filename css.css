@@ -21,7 +21,7 @@ li{
 #hd-header{
 	width: 950px;
 	height: 90px;
-	margin: 0 auto;
+	margin: 0px auto;
 	position: relative;
 }
 #hd-header .header-logo{
@@ -436,10 +436,10 @@ li{
 	border: 1px solid yellow;
 	position: relative;
 }
-#hd-book .con-left a{
+#hd-book .con-left .left-top a{
 	color: #642f14;
 }
-#hd-book .con-left a:hover{
+#hd-book .con-left .left-top a:hover{
 	color: #fff;
 	background: #3377aa;
 }
@@ -470,8 +470,48 @@ li{
 #hd-book .con-mid .mid-button:hover{
 	background: #878882;
 }
+#hd-book .con-right ul{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#hd-book .con-right ul+ul{
+	border-top: 1px solid #d7dce0;
+}
+#hd-book .con-right ul li{
+	display: inline-block;
+	margin-right: 8px;
+	margin-bottom: 5px;
+}
+#hd-book .con-right ul li span{
+	color: #999;
+}
+#hd-book .con-right ul li a{
+	color: #614e3c;
+}
+#hd-book .con-right ul li a:hover{
+	color: #fff;
+	background: #3377aa;
+}
 
 /*读书区域结束*/
+
+/*音乐区域*/
+#hd-music{
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
+}
+#hd-music .left-title{
+	color: #f38c00;
+}
+#hd-music .con-left .left-top a{
+	color: #555d53;
+}
+#hd-music .con-left a:hover{
+	color: #fff;
+	background: #3377aa;
+}
+/*音乐区域结束*/
 
 
 /* 公共样式 */
@@ -507,7 +547,10 @@ a:hover{
 	right: 0px;
 	top: 40px;
 }
-
+.right-content{
+	display: block;
+	margin-top: 10px;
+}
 /*左侧导航&Icon*/
 .con-left{
 	width: 115px;
@@ -527,7 +570,35 @@ a:hover{
 	color: #3377aa;
 	line-height: 24px;
 }
-
+.left-bottom{
+	margin-top: 25px;
+}
+.left-bottom li{
+	margin-bottom: 15px;
+}
+.left-bottom img{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+.left-bottom .icon-read{
+	background: url(./images/app_icons_50_7.jpg) 0px 0 no-repeat;
+}
+.left-bottom .icon-fm{
+	background: url(./images/app_icons_50_7.jpg) -250px 0 no-repeat;
+}
+.left-bottom .icon-artist{
+	background: url(./images/app_icons_50_7.jpg) -50px 0 no-repeat;
+}
+.left-bottom a{
+	font-size: 12px;
+	color: #555d53;
+}
+.left-bottom a:hover{
+	color: #fff;
+	background: #3377aa;
+}
 /*中间内容
 	灰色字：h3
 	黑色字：h4
