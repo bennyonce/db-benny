@@ -510,6 +510,7 @@ li{
 #hd-music .con-mid .mid-content p{
 	display: block;
 	margin-top: 15px;
+	margin-bottom: 10px;
 }
 #hd-music .con-mid .mid-content .music-title{
 	color: #333;
@@ -519,7 +520,14 @@ li{
 	background: #3377aa;
 }
 #hd-music .con-mid .mid-content .music-artist{
+	margin-top: 10px;
 	text-align: center;
+	color: #333;
+	font-size: 12px;
+}
+#hd-music .con-mid .mid-content .music-artist:hover{
+	color: #fff;
+	background: #3377aa;
 }
 #hd-music .con-mid .mid-content .pic-cover{
 	position: relative;
@@ -552,6 +560,10 @@ li{
 	position: absolute;
 	top: 0px;
 	left: 80px;
+}
+#hd-music .con-right .right-title:hover{
+	color: #fff;
+	background: #3377aa;
 }
 #hd-music .con-right h4{
 	color: #999;
@@ -702,24 +714,30 @@ li{
 	float: left;
 }
 #hd-city .con-mid ul li img{
+	display: block;
 	height: 90px;
 	width: 70px;
 }
-#hd-city .con-mid ul li .city-title{
+#hd-city .con-mid ul li p{
+	display: block;
+	width: 180px;
 	position: absolute;
 	top: 0px;
 	left: 80px;
+}
+#hd-city .con-mid .city-title{
 	font-size: 13px;
 	color: #643;
 }
-#hd-city .con-mid ul li .city-title:hover{
+#hd-city .con-mid .city-title:hover{
 	color: #fff;
 	background: #3377aa;
 }
 #hd-city .con-mid ul li h3{
-	position: absolute;
-	left: 80px;
-	top: 30px;
+	display: block;
+	width: 180px;
+	margin-top: -40px;
+	margin-left: 80px;
 }
 #hd-city .con-right li{
 	display: inline-block;
@@ -735,7 +753,6 @@ li{
 	background: #3377aa;
 }
 #hd-city .con-right .cate-title{
-	display: inline-block;
 	color: #333;
 }
 /*同城区域结束*/
@@ -780,6 +797,30 @@ li{
 	position: absolute;
 	left: 25px;
 	top: 60px;
+}
+#hd-footer .hd-foot{
+	margin-top: 40px;
+	border-top: 1px dashed #999;
+	position: relative;
+}
+#hd-footer .hd-foot .foot-left{
+	margin-top: 20px;
+}
+#hd-footer .hd-foot .foot-left p{
+	color: #999;
+}
+#hd-footer .hd-foot ul{
+	position: absolute;
+	top: 20px;
+	left: 490px;
+}
+#hd-footer .hd-foot ul li{
+	display: inline-block;
+}
+#hd-footer .hd-foot .Benny{
+	position: absolute;
+	top: 50px;
+	left: 490px;
 }
 /*Footer区域结束*/
 
